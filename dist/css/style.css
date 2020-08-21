@@ -209,6 +209,11 @@ strong {
 
 /* Media Queries */
 @media (max-width: 700px) {
+  .navbar .nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .section-a .container {
     grid-template-columns: 1fr;
     text-align: center;
